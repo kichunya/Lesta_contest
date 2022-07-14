@@ -20,6 +20,7 @@ class Fifo1:
 Inserting and deleting elements from both ends in this case is O(1), 
 since deque is based on a doubly linked list.
 """
+
 from collections import deque
 
 
@@ -38,6 +39,7 @@ class Fifo2:
 #3 multiprocessing.Queue
 This option is used for process-based parallel operation. 
 """
+
 from multiprocessing import Queue
 
 
@@ -56,6 +58,7 @@ class Fifo3:
 #4 queue.Queue
 Fifo for multi-threaded use 
 """
+
 from queue import Queue
 
 
